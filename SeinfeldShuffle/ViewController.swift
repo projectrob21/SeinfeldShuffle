@@ -21,28 +21,22 @@ class ViewController: UIViewController {
             guard let episodes = seinfeld["episodes"] as? [[String:Any]] else { print("trouble unwrapping dictionary (episodes)"); return }
             
             for episode in episodes {
-                guard let seasondict = episode["season"] as? Int, let numberdict = episode["number"] as? Int, let name = episode["name"] as? String else { print("trouble unwrapping dictionary (for loop)"); return }
+                guard let season = episode["season"] as? Int, let number = episode["number"] as? Int, let title = episode["name"] as? String else { print("trouble unwrapping dictionary (for loop)"); return }
 
                 
-                var season = "\(seasondict)"
-                if season.characters.count == 1 {
-                    season = "0\(season)"
-                }
-                
-                var episode = "\(numberdict)"
-                if episode.characters.count == 1 {
-                    episode = "0\(episode)"
-                }
-                
-                let seasonEpisode = "\(season)\(episode)"
-                
-                let newEpisode = Episode(seasonEpisode: seasonEpisode, title: name)
+                let newEpisode = Episode(season: season, episode: number, title: title)
 
                 self.seinfeldEpisodes.append(newEpisode)
                 
             }
-            print("episode count = \(self.seinfeldEpisodes.count)")
+            self.seinfeldEpisodes.sort {
+                return $0.0.seasonEpisode < $0.1.seasonEpisode
+            }
+            for episode in self.seinfeldEpisodes {
+                print("\(episode.seasonEpisode)")
+            }
         }
+
     }
     
     override func didReceiveMemoryWarning() {

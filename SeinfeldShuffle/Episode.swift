@@ -10,12 +10,27 @@ import Foundation
 
 class Episode {
     
-    let seasonEpisode: String
+    let season: Int
+    let episode: Int
+    
+    var seasonEpisode: String {
+        var seasonString = "\(season)"
+        if seasonString.characters.count == 1 {
+            seasonString = "0\(seasonString)"
+        }
+        var episodeString = "\(episode)"
+        if episodeString.characters.count == 1 {
+            episodeString = "0\(episodeString)"
+        }
+        return "\(seasonString)\(episodeString)"
+    }
+    
     let title: String
     let url: URL? = nil
     
-    init(seasonEpisode: String, title: String) {
-        self.seasonEpisode = seasonEpisode
+    init(season: Int, episode: Int, title: String) {
+        self.season = season
+        self.episode = episode
         self.title = title
     }
     
