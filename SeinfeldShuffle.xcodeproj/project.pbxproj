@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F827C57A5CFF2CB4A5FC118 /* Pods_SeinfeldShuffle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017F5F072DD1E8CACEEC16AC /* Pods_SeinfeldShuffle.framework */; };
 		E87EF3C81E6DEF7800913D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EF3C71E6DEF7800913D27 /* AppDelegate.swift */; };
 		E87EF3CA1E6DEF7800913D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EF3C91E6DEF7800913D27 /* ViewController.swift */; };
 		E87EF3CD1E6DEF7900913D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87EF3CB1E6DEF7800913D27 /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017F5F072DD1E8CACEEC16AC /* Pods_SeinfeldShuffle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeinfeldShuffle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803158CA401D1C6E95468ECA /* Pods-SeinfeldShuffle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldShuffle.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeinfeldShuffle/Pods-SeinfeldShuffle.release.xcconfig"; sourceTree = "<group>"; };
 		E87EF3C41E6DEF7800913D27 /* SeinfeldShuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeinfeldShuffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87EF3C71E6DEF7800913D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87EF3C91E6DEF7800913D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		E87EF3DB1E6DEF7900913D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E87EF3E41E6DF20700913D27 /* EpisodeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeData.swift; sourceTree = "<group>"; };
 		E87EF3E61E6DF2AE00913D27 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		FBB5D848813180D7EF68E21B /* Pods-SeinfeldShuffle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldShuffle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeinfeldShuffle/Pods-SeinfeldShuffle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F827C57A5CFF2CB4A5FC118 /* Pods_SeinfeldShuffle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		880A54F299DBA5F68A3EBB9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017F5F072DD1E8CACEEC16AC /* Pods_SeinfeldShuffle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E87EF3BB1E6DEF7800913D27 = {
 			isa = PBXGroup;
 			children = (
 				E87EF3C61E6DEF7800913D27 /* SeinfeldShuffle */,
 				E87EF3D81E6DEF7900913D27 /* SeinfeldShuffleTests */,
 				E87EF3C51E6DEF7800913D27 /* Products */,
+				F9B3F68697747A07A3FAABB6 /* Pods */,
+				880A54F299DBA5F68A3EBB9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +114,15 @@
 			path = SeinfeldShuffleTests;
 			sourceTree = "<group>";
 		};
+		F9B3F68697747A07A3FAABB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBB5D848813180D7EF68E21B /* Pods-SeinfeldShuffle.debug.xcconfig */,
+				803158CA401D1C6E95468ECA /* Pods-SeinfeldShuffle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E87EF3DE1E6DEF7900913D27 /* Build configuration list for PBXNativeTarget "SeinfeldShuffle" */;
 			buildPhases = (
+				D61614198B2B26ADA6B886FB /* [CP] Check Pods Manifest.lock */,
 				E87EF3C01E6DEF7800913D27 /* Sources */,
 				E87EF3C11E6DEF7800913D27 /* Frameworks */,
 				E87EF3C21E6DEF7800913D27 /* Resources */,
+				D8E8AA888C78BEB3278AF9C1 /* [CP] Embed Pods Frameworks */,
+				DC09701A82BB1204064461D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +222,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D61614198B2B26ADA6B886FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E8AA888C78BEB3278AF9C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeinfeldShuffle/Pods-SeinfeldShuffle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC09701A82BB1204064461D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeinfeldShuffle/Pods-SeinfeldShuffle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E87EF3C01E6DEF7800913D27 /* Sources */ = {
@@ -331,6 +406,7 @@
 		};
 		E87EF3DF1E6DEF7900913D27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB5D848813180D7EF68E21B /* Pods-SeinfeldShuffle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -345,6 +421,7 @@
 		};
 		E87EF3E01E6DEF7900913D27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803158CA401D1C6E95468ECA /* Pods-SeinfeldShuffle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -404,6 +481,7 @@
 				E87EF3E01E6DEF7900913D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E87EF3E11E6DEF7900913D27 /* Build configuration list for PBXNativeTarget "SeinfeldShuffleTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +490,7 @@
 				E87EF3E31E6DEF7900913D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
