@@ -14,7 +14,7 @@ class EpisodeData {
     
     var seinfeldDictionary: SeinfeldDictionary = [:]
     
-    class func getEpisodeData(completion: @escaping ([String:Any]) -> Void) {
+    class func getEpisodeDataAPI(completion: @escaping ([String:Any]) -> Void) {
         let url = URL(string: "https://imdbapi.poromenos.org/js/?name=seinfeld")
         
         if let unwrappedURL = url {
@@ -34,18 +34,17 @@ class EpisodeData {
         }
     }
     
+    class func getEpisodeDataJSON(with jsonFilename: String, completion: @escaping ([String : Any]) -> Void) {
+        guard let filePath = Bundle.main.path(forResource: jsonFilename, ofType: "json") else { print("error unwrapping json file path"); return }
         
-        /*
-         
-         season 01 - 5
-         season 02 - 12
-         season 03 - 22
-         season 04 - 22
-         season 05 - 21
-         season 06 - 23
-         season 07 - 22
-         season 08 - 22
-         season 09 - 22
-         
-         */
+        do {
+            let data = try NSData(contentsOfFile: filePath, options: NSData.ReadingOptions.uncached)
+            
+            guard let seinfeldData = try JSONSerialization.jsonObject(with: data as Data, options: []) as? [String : Any] else { print("error typecasting json dictionary"); return }
+            completion(seinfeldData)
+        } catch {
+            print("error reading data from file in json serializer")
+        }
+    }
+    
 }

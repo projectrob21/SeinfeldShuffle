@@ -26,26 +26,25 @@ class ViewController: UIViewController {
         
         configure()
         constrain()
-
-        EpisodeData.getEpisodeData { (seinfeldData) in
+        
+        EpisodeData.getEpisodeDataJSON(with: "Seinfeld") { (seinfeldData) in
             guard let seinfeld = seinfeldData["Seinfeld"] as? [String:Any] else { print("trouble unwrapping dictionary (seinfeld)"); return }
             
             guard let episodes = seinfeld["episodes"] as? [[String:Any]] else { print("trouble unwrapping dictionary (episodes)"); return }
-            
+
             for episode in episodes {
-                guard let season = episode["season"] as? Int, let number = episode["number"] as? Int, let title = episode["name"] as? String else { print("trouble unwrapping dictionary (for loop)"); return }
-
+                guard let season = episode["Season"] as? Int, let number = episode["Episode"] as? Int, let code = episode["Code"] as? Int, let title = episode["Name"] as? String else { print("trouble unwrapping dictionary (for loop)"); return }
                 
-                let newEpisode = Episode(season: season, episode: number, title: title)
-
+                
+                let newEpisode = Episode(season: season, episode: number, title: title, code: code)
+                
                 self.seinfeldEpisodes.append(newEpisode)
                 
             }
             self.seinfeldEpisodes.sort {
                 return $0.0.seasonEpisode < $0.1.seasonEpisode
             }
-            
-            print("number of episodes is \(self.seinfeldEpisodes.count)")
+        
         }
         
         print(UIScreen.main.focusedView ?? "no focusedView")

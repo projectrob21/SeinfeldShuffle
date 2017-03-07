@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F827C57A5CFF2CB4A5FC118 /* Pods_SeinfeldShuffle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017F5F072DD1E8CACEEC16AC /* Pods_SeinfeldShuffle.framework */; };
 		E8116AB21E6E1F9E0048859A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8116AB11E6E1F9E0048859A /* MainView.swift */; };
+		E8116AEB1E6F49D20048859A /* Seinfeld.json in Resources */ = {isa = PBXBuildFile; fileRef = E8116AEA1E6F49D20048859A /* Seinfeld.json */; };
 		E87EF3C81E6DEF7800913D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EF3C71E6DEF7800913D27 /* AppDelegate.swift */; };
 		E87EF3CA1E6DEF7800913D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EF3C91E6DEF7800913D27 /* ViewController.swift */; };
 		E87EF3CD1E6DEF7900913D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87EF3CB1E6DEF7800913D27 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		017F5F072DD1E8CACEEC16AC /* Pods_SeinfeldShuffle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeinfeldShuffle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		803158CA401D1C6E95468ECA /* Pods-SeinfeldShuffle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldShuffle.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeinfeldShuffle/Pods-SeinfeldShuffle.release.xcconfig"; sourceTree = "<group>"; };
 		E8116AB11E6E1F9E0048859A /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ../MainView.swift; sourceTree = "<group>"; };
+		E8116AEA1E6F49D20048859A /* Seinfeld.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Seinfeld.json; sourceTree = "<group>"; };
 		E87EF3C41E6DEF7800913D27 /* SeinfeldShuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeinfeldShuffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87EF3C71E6DEF7800913D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87EF3C91E6DEF7800913D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				E87EF3C91E6DEF7800913D27 /* ViewController.swift */,
 				E87EF3E41E6DF20700913D27 /* EpisodeData.swift */,
 				E87EF3E61E6DF2AE00913D27 /* Episode.swift */,
+				E8116AEA1E6F49D20048859A /* Seinfeld.json */,
 				E87EF3CB1E6DEF7800913D27 /* Main.storyboard */,
 				E87EF3CE1E6DEF7900913D27 /* Assets.xcassets */,
 				E87EF3D01E6DEF7900913D27 /* Info.plist */,
@@ -212,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8116AEB1E6F49D20048859A /* Seinfeld.json in Resources */,
 				E87EF3CF1E6DEF7900913D27 /* Assets.xcassets in Resources */,
 				E87EF3CD1E6DEF7900913D27 /* Main.storyboard in Resources */,
 			);

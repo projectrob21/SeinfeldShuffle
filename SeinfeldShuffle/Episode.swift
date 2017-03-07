@@ -25,13 +25,20 @@ class Episode {
         return "\(seasonString)\(episodeString)"
     }
     
+    let code: Int
+    
+    var hyperlink: String {
+        return "hulu://w/\(code)"
+    }
+    
     let title: String
     let url: URL? = nil
     
-    init(season: Int, episode: Int, title: String) {
+    init(season: Int, episode: Int, title: String, code: Int) {
         self.season = season
         self.episode = episode
         self.title = title
+        self.code = code
     }
     
 }
