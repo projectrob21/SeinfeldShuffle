@@ -68,9 +68,6 @@ class ViewController: UIViewController {
         seinfeldButton.setImage(#imageLiteral(resourceName: "Seinfeld"), for: .normal)
         seinfeldButton.addTarget(self, action: #selector(openHulu), for: .primaryActionTriggered)
         
-        
-        print("configured")
-        
     }
     
     func constrain() {
@@ -87,19 +84,30 @@ class ViewController: UIViewController {
             $0.centerY.equalToSuperview()
             $0.height.width.equalToSuperview().dividedBy(2)
         }
-        print("constrained")
+
     }
     
-    func shuffleEpisodes() {
-        let randomIndex = Int(arc4random_uniform(173))
-        randomEpisode = seinfeldEpisodes[randomIndex]
-        print("Random episode is \(randomEpisode?.title)")
-    }
     
     func openHulu() {
         let randomIndex = Int(arc4random_uniform(173))
         randomEpisode = seinfeldEpisodes[randomIndex]
         print("Random episode is \(randomEpisode?.title)")
+        if let randomEpisode = randomEpisode {
+            let urlString = URL(string: randomEpisode.hyperlink)
+            
+            if let urlunwrapped = urlString {
+                UIApplication.shared.open(urlunwrapped, options: [:]) { (didFinish) in
+                    if didFinish {
+                        print("SUCCESS")
+                    } else {
+                        
+                        print("error...")
+                    }
+                }
+            }
+            
+        }
+
     }
 }
 
