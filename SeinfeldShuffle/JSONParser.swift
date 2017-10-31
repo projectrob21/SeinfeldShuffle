@@ -32,8 +32,8 @@ final class JSONParser {
                         print("ERROR: \(error)")
                     }
                 } else {
-                    print("ERROR: \(error)")
-                    print("RESPONSE: \(response)")
+                    print("ERROR: \(String(describing: error))")
+                    print("RESPONSE: \(String(describing: response))")
                     
                 }
             }
