@@ -8,14 +8,18 @@
 
 import Foundation
 
-class EpisodeData {
+final class JSONParser {
     
-    typealias SeinfeldDictionary = [String:[String:Any]]
+    static let alwaysSunnyLink = "https://imdbapi.poromenos.org/js/?name=it%27s+always+sunny+in+philadelphia"
     
-    var seinfeldDictionary: SeinfeldDictionary = [:]
+    static let seinfeldLink = "https://imdbapi.poromenos.org/js/?name=seinfeld"
     
-    class func getEpisodeDataAPI(completion: @escaping ([String:Any]) -> Void) {
-        let url = URL(string: "https://imdbapi.poromenos.org/js/?name=seinfeld")
+    typealias EpisodeDictionary = [String:[String:Any]]
+    
+    var seinfeldDictionary: EpisodeDictionary = [:]
+    
+    class func getEpisodeDataAPI(for episodeLink: String, completion: @escaping ([String:Any]) -> Void) {
+        let url = URL(string: episodeLink)
         
         if let unwrappedURL = url {
             let session = URLSession.shared
@@ -27,10 +31,13 @@ class EpisodeData {
                     } catch {
                         print("ERROR: \(error)")
                     }
+                } else {
+                    print("ERROR: \(error)")
+                    print("RESPONSE: \(response)")
+                    
                 }
             }
             dataTask.resume()
-            
         }
     }
     

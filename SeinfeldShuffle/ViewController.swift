@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     var seinfeldEpisodes = [Episode]()
     
+    var alwaysSunnyEpisodes = [Episode]()
+    
     var tvImageView: UIImageView!
     var seinfeldButton: UIButton!
     var randomEpisode: Episode?
@@ -27,7 +29,7 @@ class ViewController: UIViewController {
         configure()
         constrain()
         
-        EpisodeData.getEpisodeDataJSON(with: "Seinfeld") { (seinfeldData) in
+        JSONParser.getEpisodeDataJSON(with: "Seinfeld") { (seinfeldData) in
             guard let seinfeld = seinfeldData["Seinfeld"] as? [String:Any] else { print("trouble unwrapping dictionary (seinfeld)"); return }
             
             guard let episodes = seinfeld["episodes"] as? [[String:Any]] else { print("trouble unwrapping dictionary (episodes)"); return }
@@ -53,6 +55,32 @@ class ViewController: UIViewController {
         
         print(UIScreen.main.focusedView ?? "no focusedView")
 
+        JSONParser.getEpisodeDataJSON(with: "AlwaysSunny") { (alwaysSunnyData) in
+            guard let alwaysSunny = alwaysSunnyData["It's Always Sunny in Philadelphia"] as? [String:Any] else { print("trouble unwrapping dictionary (It's Always Sunny in Philadelphia)"); return }
+            
+            guard let episodes = alwaysSunny["episodes"] as? [[String:Any]] else { print("trouble unwrapping dictionary (episodes)"); return }
+            
+            for episode in episodes {
+                
+                guard let season = episode["Season"] as? Int,
+                    let number = episode["Episode"] as? Int,
+//                    let code = episode["Code"] as? Int,
+                    let title = episode["Name"] as? String
+                    else { print("trouble unwrapping dictionary (for loop)"); return }
+                
+                let newEpisode = Episode(season: season, episode: number, title: title, code: 0)
+                
+                self.alwaysSunnyEpisodes.append(newEpisode)
+                
+            }
+            print("There are \(self.alwaysSunnyEpisodes.count) episodes of Always Sunny")
+            self.alwaysSunnyEpisodes.sort {
+                return $0.0.seasonEpisode < $0.1.seasonEpisode
+            }
+            
+            
+        }
+        
     }
     
     func configure() {
