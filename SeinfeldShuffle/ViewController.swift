@@ -33,8 +33,12 @@ class ViewController: UIViewController {
             guard let episodes = seinfeld["episodes"] as? [[String:Any]] else { print("trouble unwrapping dictionary (episodes)"); return }
 
             for episode in episodes {
-                guard let season = episode["Season"] as? Int, let number = episode["Episode"] as? Int, let code = episode["Code"] as? Int, let title = episode["Name"] as? String else { print("trouble unwrapping dictionary (for loop)"); return }
                 
+                guard let season = episode["Season"] as? Int,
+                    let number = episode["Episode"] as? Int,
+                    let code = episode["Code"] as? Int,
+                    let title = episode["Name"] as? String
+                    else { print("trouble unwrapping dictionary (for loop)"); return }
                 
                 let newEpisode = Episode(season: season, episode: number, title: title, code: code)
                 
@@ -50,13 +54,6 @@ class ViewController: UIViewController {
         print(UIScreen.main.focusedView ?? "no focusedView")
 
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
     
     func configure() {
        
@@ -91,7 +88,9 @@ class ViewController: UIViewController {
     func openHulu() {
         let randomIndex = Int(arc4random_uniform(173))
         randomEpisode = seinfeldEpisodes[randomIndex]
-        print("Random episode is \(randomEpisode?.title)")
+        
+        print("Random episode is \(String(describing: randomEpisode?.title))")
+        
         if let randomEpisode = randomEpisode {
             let urlString = URL(string: randomEpisode.hyperlink)
             
@@ -100,14 +99,11 @@ class ViewController: UIViewController {
                     if didFinish {
                         print("SUCCESS")
                     } else {
-                        
                         print("error...")
                     }
                 }
             }
-            
         }
-
     }
 }
 

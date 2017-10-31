@@ -12,7 +12,9 @@ class Episode {
     
     let season: Int
     let episode: Int
-    
+    let code: Int
+    let title: String
+
     var seasonEpisode: String {
         var seasonString = "\(season)"
         if seasonString.characters.count == 1 {
@@ -25,15 +27,10 @@ class Episode {
         return "\(seasonString)\(episodeString)"
     }
     
-    let code: Int
-    
     var hyperlink: String {
         return "hulu://w/\(code)"
     }
-    
-    let title: String
-    let url: URL? = nil
-    
+        
     init(season: Int, episode: Int, title: String, code: Int) {
         self.season = season
         self.episode = episode
