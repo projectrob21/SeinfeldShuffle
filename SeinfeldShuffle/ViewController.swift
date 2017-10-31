@@ -42,7 +42,7 @@ class ViewController: UIViewController {
 //                    let title = episode["Name"] as? String
 //                    else { print("trouble unwrapping dictionary (for loop)"); return }
 //
-//                let newEpisode = Episode(season: season, episode: number, title: title, code: code)
+//                let newEpisode = Episode(season: season, episode: number, title: title, code: code, platform: .Hulu)
 //
 //                self.seinfeldEpisodes.append(newEpisode)
 //
@@ -69,7 +69,7 @@ class ViewController: UIViewController {
                     let title = episode["Name"] as? String
                     else { print("trouble unwrapping dictionary (for loop)"); return }
 
-                let newEpisode = Episode(season: season, episode: number, title: title, code: 0)
+                let newEpisode = Episode(season: season, episode: number, title: title, code: 70224507, platform: .Netflix)
 
                 self.alwaysSunnyEpisodes.append(newEpisode)
 

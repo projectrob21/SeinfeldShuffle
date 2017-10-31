@@ -8,12 +8,17 @@
 
 import Foundation
 
+enum Platform: String {
+    case Hulu, Netflix
+}
+
 class Episode {
     
     let season: Int
     let episode: Int
     let code: Int
     let title: String
+    let platform: Platform
 
     var seasonEpisode: String {
         var seasonString = "\(season)"
@@ -28,14 +33,22 @@ class Episode {
     }
     
     var hyperlink: String {
-        return "hulu://w/\(code)"
+        
+        switch platform {
+        case .Hulu:
+            return "hulu://w/\(code)"
+        case .Netflix:
+            return "nflx://w/\(code)"
+        }
+
     }
         
-    init(season: Int, episode: Int, title: String, code: Int) {
+    init(season: Int, episode: Int, title: String, code: Int, platform: Platform) {
         self.season = season
         self.episode = episode
         self.title = title
         self.code = code
+        self.platform = platform
     }
     
 }
