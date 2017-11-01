@@ -10,7 +10,10 @@ import Foundation
 
 final class EpisodeDataStore {
     
+    static let sharedInstance = EpisodeDataStore()
     
-    
+    var seinfeldEpisodes = [Episode]()
+    var alwaysSunnyEpisodes = [Episode]()
+
     
 }

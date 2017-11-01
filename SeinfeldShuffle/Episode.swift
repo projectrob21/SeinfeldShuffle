@@ -12,6 +12,10 @@ enum Platform: String {
     case Hulu, Netflix
 }
 
+enum Sitcom: Int {
+    case Seinfeld = 0, AlwaysSunny
+}
+
 class Episode {
     
     let season: Int
@@ -38,7 +42,7 @@ class Episode {
         case .Hulu:
             return "hulu://w/\(code)"
         case .Netflix:
-            return "nflx://w/\(code)"
+            return "nflx://www.netflix.com/watch/\(code)"
         }
 
     }

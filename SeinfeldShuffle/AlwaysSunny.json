@@ -2,681 +2,666 @@
     {
         "episodes":
         [
-             {
-                 "Name" : "Episode #12.1",
-                 "Episode" : 1,
-                 "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.10",
-             "Episode" : 10,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.2",
-             "Episode" : 2,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.3",
-             "Episode" : 3,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.4",
-             "Episode" : 4,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.5",
-             "Episode" : 5,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.6",
-             "Episode" : 6,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.7",
-             "Episode" : 7,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.8",
-             "Episode" : 8,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #12.9",
-             "Episode" : 9,
-             "Season" : 12,
-             },
-             {
-             "Name" : "Episode #13.1",
-             "Episode" : 1,
-             "Season" : 13,
-             },
-             {
-             "Name" : "Episode #14.1",
-             "Episode" : 1,
-             "Season" : 14,
-             },
-             {
-             "Name" : "A Very Sunny Christmas",
-             "Episode" : 13,
-             "Season" : 6,
-             },
-             {
-             "Name" : "America's Next Top Paddy's Billboard Model Contest",
-             "Episode" : 3,
-             "Season" : 4,
-             },
-             {
-             "Name" : "Ass Kickers United: Mac and Charlie Join a Cult",
-             "Episode" : 10,
-             "Season" : 10,
-             },
-             {
-             "Name" : "Being Frank",
-             "Episode" : 6,
-             "Season" : 11,
-             },
-             {
-             "Name" : "Bums: Making a Mess All Over the City",
-             "Episode" : 14,
-             "Season" : 3,
-             },
-             {
-             "Name" : "Chardee MacDennis 2: Electric Boogaloo",
-             "Episode" : 1,
-             "Season" : 11,
-             },
-             {
-             "Name" : "Chardee MacDennis: The Game of Games",
-             "Episode" : 7,
-             "Season" : 7,
-             },
-             {
-             "Name" : "Charlie and Dee Find Love",
-             "Episode" : 4,
-             "Season" : 8,
-             },
-             {
-             "Name" : "Charlie Catches a Leprechaun",
-             "Episode" : 8,
-             "Season" : 11,
-             },
-             {
-             "Name" : "Charlie Gets Crippled",
-             "Episode" : 1,
-             "Season" : 2,
-             },
-             {
-             "Name" : "Charlie Goes America All Over Everybody's Ass",
-             "Episode" : 9,
-             "Season" : 2,
-             },
-             {
-             "Name" : "Charlie Got Molested",
-             "Episode" : 7,
-             "Season" : 1,
-             },
-             {
-             "Name" : "Charlie Has Cancer",
-             "Episode" : 4,
-             "Season" : 1,
-             },
-             {
-             "Name" : "Charlie Kelly: King of the Rats",
-             "Episode" : 10,
-             "Season" : 6,
-             },
-             {
-             "Name" : "Charlie Rules the World",
-             "Episode" : 8,
-             "Season" : 8,
-             },
-             {
-             "Name" : "Charlie Wants an Abortion",
-             "Episode" : 2,
-             "Season" : 1,
-             },
-             {
-             "Name" : "Charlie Work",
-             "Episode" : 4,
-             "Season" : 10,
-             },
-             {
-             "Name" : "Charlie's Mom Has Cancer",
-             "Episode" : 6,
-             "Season" : 8,
-             },
-             {
-             "Name" : "Dee Gives Birth",
-             "Episode" : 12,
-             "Season" : 6,
-             },
-             {
-             "Name" : "Dee Made a Smut Film",
-             "Episode" : 4,
-             "Season" : 11,
-             },
-             {
-             "Name" : "Dee Reynolds: Shaping America's Youth",
-             "Episode" : 9,
-             "Season" : 6,
-             },
-             {
-             "Name" : "Dennis and Dee Get a New Dad",
-             "Episode" : 10,
-             "Season" : 2,
-             },
-             {
-             "Name" : "Dennis and Dee Go on Welfare",
-             "Episode" : 3,
-             "Season" : 2,
-             },
-             {
-             "Name" : "Dennis and Dee's Mom Is Dead",
-             "Episode" : 3,
-             "Season" : 3,
-             },
-             {
-             "Name" : "Dennis Gets Divorced",
-             "Episode" : 2,
-             "Season" : 6,
-             },
-             {
-             "Name" : "Dennis Looks Like a Registered Sex Offender",
-             "Episode" : 11,
-             "Season" : 3,
-             },
-             {
-             "Name" : "Dennis Reynolds: An Erotic Life",
-             "Episode" : 9,
-             "Season" : 4,
-             },
-             {
-             "Name" : "Flowers for Charlie",
-             "Episode" : 8,
-             "Season" : 9,
-             },
-             {
-             "Name" : "Frank Falls Out the Window",
-             "Episode" : 2,
-             "Season" : 11,
-             },
-             {
-             "Name" : "Frank Retires",
-             "Episode" : 9,
-             "Season" : 10,
-             },
-             {
-             "Name" : "Frank Reynolds' Little Beauties",
-             "Episode" : 3,
-             "Season" : 7,
-             },
-             {
-             "Name" : "Frank Sets Sweet Dee on Fire",
-             "Episode" : 8,
-             "Season" : 3,
-             },
-             {
-             "Name" : "Frank's Back in Business",
-             "Episode" : 7,
-             "Season" : 8,
-             },
-             {
-             "Name" : "Frank's Brother",
-             "Episode" : 5,
-             "Season" : 7,
-             },
-             {
-             "Name" : "Frank's Pretty Woman",
-             "Episode" : 1,
-             "Season" : 7,
-             },
-             {
-             "Name" : "Gun Fever",
-             "Episode" : 5,
-             "Season" : 1,
-             },
-             {
-             "Name" : "Gun Fever Too: Still Hot",
-             "Episode" : 2,
-             "Season" : 9,
-             },
-             {
-             "Name" : "How Mac Got Fat",
-             "Episode" : 10,
-             "Season" : 7,
-             },
-             {
-             "Name" : "Hundred Dollar Baby",
-             "Episode" : 5,
-             "Season" : 2,
-             },
-             {
-             "Name" : "Mac & Charlie Die: Part 1",
-             "Episode" : 5,
-             "Season" : 4,
-             },
-             {
-             "Name" : "Mac & Charlie Die: Part 1",
-             "Episode" : 6,
-             "Season" : 4,
-             },
-             {
-             "Name" : "Mac & Dennis Move to the Suburbs",
-             "Episode" : 5,
-             "Season" : 11,
-             },
-             {
-             "Name" : "Mac and Charlie Write a Movie",
-             "Episode" : 11,
-             "Season" : 5,
-             },
-             {
-             "Name" : "Mac and Charlie: White Trash",
-             "Episode" : 5,
-             "Season" : 6,
-             },
-             {
-             "Name" : "Mac and Dennis Break Up",
-             "Episode" : 9,
-             "Season" : 5,
-             },
-             {
-             "Name" : "Mac and Dennis Buy a Timeshare",
-             "Episode" : 4,
-             "Season" : 9,
-             },
-             {
-             "Name" : "Mac and Dennis: Manhunters",
-             "Episode" : 1,
-             "Season" : 4,
-             },
-             {
-             "Name" : "Mac Bangs Dennis' Mom",
-             "Episode" : 4,
-             "Season" : 2,
-             },
-             {
-             "Name" : "Mac Day",
-             "Episode" : 5,
-             "Season" : 9,
-             },
-             {
-             "Name" : "Mac Fights Gay Marriage",
-             "Episode" : 1,
-             "Season" : 6,
-             },
-             {
-             "Name" : "Mac Is a Serial Killer",
-             "Episode" : 10,
-             "Season" : 3,
-             },
-             {
-             "Name" : "Mac Kills His Dad",
-             "Episode" : 7,
-             "Season" : 10,
-             },
-             {
-             "Name" : "Mac's Banging the Waitress",
-             "Episode" : 4,
-             "Season" : 4,
-             },
-             {
-             "Name" : "Mac's Big Break",
-             "Episode" : 4,
-             "Season" : 6,
-             },
-             {
-             "Name" : "Mac's Mom Burns Her House Down",
-             "Episode" : 6,
-             "Season" : 6,
-             },
-             {
-             "Name" : "McPoyle vs. Ponderosa: The Trial of the Century",
-             "Episode" : 7,
-             "Season" : 11,
-             },
-             {
-             "Name" : "Paddy's Pub: Home of the Original Kitten Mittens",
-             "Episode" : 8,
-             "Season" : 5,
-             },
-             {
-             "Name" : "Paddy's Pub: The Worst Bar in Philadelphia",
-             "Episode" : 8,
-             "Season" : 4,
-             },
-             {
-             "Name" : "Pop-Pop: The Final Solution",
-             "Episode" : 1,
-             "Season" : 8,
-             },
-             {
-             "Name" : "Psycho Pete Returns",
-             "Episode" : 3,
-             "Season" : 10,
-             },
-             {
-             "Name" : "Reynolds vs. Reynolds: The Cereal Defense",
-             "Episode" : 10,
-             "Season" : 8,
-             },
-             {
-             "Name" : "Sweet Dee Gets Audited",
-             "Episode" : 4,
-             "Season" : 7,
-             },
-             {
-             "Name" : "Sweet Dee Has a Heart Attack",
-             "Episode" : 10,
-             "Season" : 4,
-             },
-             {
-             "Name" : "Sweet Dee's Dating a Retarded Person",
-             "Episode" : 9,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Aluminum Monster vs. Fatty Magoo",
-             "Episode" : 5,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The ANTI-Social Network",
-             "Episode" : 8,
-             "Season" : 7,
-             },
-             {
-             "Name" : "The D.E.N.N.I.S. System",
-             "Episode" : 10,
-             "Season" : 5,
-             },
-             {
-             "Name" : "The Gang Beats Boggs",
-             "Episode" : 1,
-             "Season" : 10,
-             },
-             {
-             "Name" : "The Gang Broke Dee",
-             "Episode" : 1,
-             "Season" : 9,
-             },
-             {
-             "Name" : "The Gang Buys a Boat",
-             "Episode" : 3,
-             "Season" : 6,
-             },
-             {
-             "Name" : "The Gang Cracks the Liberty Bell",
-             "Episode" : 11,
-             "Season" : 4,
-             },
-             {
-             "Name" : "The Gang Dances Their Asses Off",
-             "Episode" : 15,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Gang Dines Out",
-             "Episode" : 9,
-             "Season" : 8,
-             },
-             {
-             "Name" : "The Gang Exploits a Miracle",
-             "Episode" : 7,
-             "Season" : 2,
-             },
-             {
-             "Name" : "The Gang Exploits the Mortgage Crisis",
-             "Episode" : 1,
-             "Season" : 5,
-             },
-             {
-             "Name" : "The Gang Finds a Dead Guy",
-             "Episode" : 6,
-             "Season" : 1,
-             },
-             {
-             "Name" : "The Gang Finds a Dumpster Baby",
-             "Episode" : 1,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Gang Gets a New Member",
-             "Episode" : 8,
-             "Season" : 6,
-             },
-             {
-             "Name" : "The Gang Gets Analyzed",
-             "Episode" : 5,
-             "Season" : 8,
-             },
-             {
-             "Name" : "The Gang Gets Extreme: Home Makeover Edition",
-             "Episode" : 12,
-             "Season" : 4,
-             },
-             {
-             "Name" : "The Gang Gets Held Hostage",
-             "Episode" : 4,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Gang Gets Invincible",
-             "Episode" : 2,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Gang Gets Quarantined",
-             "Episode" : 7,
-             "Season" : 9,
-             },
-             {
-             "Name" : "The Gang Gets Racist",
-             "Episode" : 1,
-             "Season" : 1,
-             },
-             {
-             "Name" : "The Gang Gets Stranded in the Woods",
-             "Episode" : 11,
-             "Season" : 6,
-             },
-             {
-             "Name" : "The Gang Gets Trapped",
-             "Episode" : 9,
-             "Season" : 7,
-             },
-             {
-             "Name" : "The Gang Gets Whacked: Part 1",
-             "Episode" : 12,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Gang Gets Whacked: Part 1",
-             "Episode" : 13,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Gang Gives Back",
-             "Episode" : 6,
-             "Season" : 2,
-             },
-             {
-             "Name" : "The Gang Gives Frank an Intervention",
-             "Episode" : 4,
-             "Season" : 5,
-             },
-             {
-             "Name" : "The Gang Goes Jihad",
-             "Episode" : 2,
-             "Season" : 2,
-             },
-             {
-             "Name" : "The Gang Goes on Family Fight",
-             "Episode" : 8,
-             "Season" : 10,
-             },
-             {
-             "Name" : "The Gang Goes to Hell",
-             "Episode" : 9,
-             "Season" : 11,
-             },
-             {
-             "Name" : "The Gang Goes to Hell: Part Two",
-             "Episode" : 10,
-             "Season" : 11,
-             },
-             {
-             "Name" : "The Gang Goes to the Jersey Shore",
-             "Episode" : 2,
-             "Season" : 7,
-             },
-             {
-             "Name" : "The Gang Group Dates",
-             "Episode" : 2,
-             "Season" : 10,
-             },
-             {
-             "Name" : "The Gang Hits the Road",
-             "Episode" : 2,
-             "Season" : 5,
-             },
-             {
-             "Name" : "The Gang Hits the Slopes",
-             "Episode" : 3,
-             "Season" : 11,
-             },
-             {
-             "Name" : "The Gang Makes Lethal Weapon 6",
-             "Episode" : 9,
-             "Season" : 9,
-             },
-             {
-             "Name" : "The Gang Misses the Boat",
-             "Episode" : 6,
-             "Season" : 10,
-             },
-             {
-             "Name" : "The Gang Recycles Their Trash",
-             "Episode" : 2,
-             "Season" : 8,
-             },
-             {
-             "Name" : "The Gang Reignites the Rivalry",
-             "Episode" : 12,
-             "Season" : 5,
-             },
-             {
-             "Name" : "The Gang Runs for Office",
-             "Episode" : 8,
-             "Season" : 2,
-             },
-             {
-             "Name" : "The Gang Saves the Day",
-             "Episode" : 6,
-             "Season" : 9,
-             },
-             {
-             "Name" : "The Gang Sells Out",
-             "Episode" : 7,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Gang Solves the Gas Crisis",
-             "Episode" : 2,
-             "Season" : 4,
-             },
-             {
-             "Name" : "The Gang Solves the North Korea Situation",
-             "Episode" : 6,
-             "Season" : 3,
-             },
-             {
-             "Name" : "The Gang Spies Like U.S.",
-             "Episode" : 5,
-             "Season" : 10,
-             },
-             {
-             "Name" : "The Gang Squashes Their Beefs",
-             "Episode" : 10,
-             "Season" : 9,
-             },
-             {
-             "Name" : "The Gang Tries Desperately to Win an Award",
-             "Episode" : 3,
-             "Season" : 9,
-             },
-             {
-             "Name" : "The Gang Wrestles for the Troops",
-             "Episode" : 7,
-             "Season" : 5,
-             },
-             {
-             "Name" : "The Great Recession",
-             "Episode" : 3,
-             "Season" : 5,
-             },
-             {
-             "Name" : "The High School Reunion",
-             "Episode" : 12,
-             "Season" : 7,
-             },
-             {
-             "Name" : "The High School Reunion Part 2: The Gang's Revenge",
-             "Episode" : 13,
-             "Season" : 7,
-             },
-             {
-             "Name" : "The Maureen Ponderosa Wedding Massacre",
-             "Episode" : 3,
-             "Season" : 8,
-             },
-             {
-             "Name" : "The Nightman Cometh",
-             "Episode" : 13,
-             "Season" : 4,
-             },
-             {
-             "Name" : "The Storm of the Century",
-             "Episode" : 6,
-             "Season" : 7,
-             },
-             {
-             "Name" : "The Waitress Is Getting Married",
-             "Episode" : 5,
-             "Season" : 5,
-             },
-             {
-             "Name" : "The World Series Defense",
-             "Episode" : 6,
-             "Season" : 5,
-             },
-             {
-             "Name" : "Thunder Gun Express",
-             "Episode" : 11,
-             "Season" : 7,
-             },
-             {
-             "Name" : "Underage Drinking: A National Concern",
-             "Episode" : 3,
-             "Season" : 1,
-             },
-             {
-             "Name" : "Who Got Dee Pregnant?",
-             "Episode" : 7,
-             "Season" : 6,
-             },
-             {
-             "Name" : "Who Pooped the Bed?",
-             "Episode" : 7,
-             "Season" : 4,
-             }
+         {
+         "Name" : "A Very Sunny Christmas",
+         "Episode" : 13,
+         "Season" : 6,
+         },
+         {
+         "Name" : "America's Next Top Paddy's Billboard Model Contest",
+         "Episode" : 3,
+         "Season" : 4,
+         "Code" : 70224518
+         },
+         {
+         "Name" : "Ass Kickers United: Mac and Charlie Join a Cult",
+         "Episode" : 10,
+         "Season" : 10,
+         },
+         {
+         "Name" : "Being Frank",
+         "Episode" : 6,
+         "Season" : 11,
+         },
+         {
+         "Name" : "Bums: Making a Mess All Over the City",
+         "Episode" : 14,
+         "Season" : 3,
+         "Code" : 70224514
+         },
+         {
+         "Name" : "Chardee MacDennis 2: Electric Boogaloo",
+         "Episode" : 1,
+         "Season" : 11,
+         },
+         {
+         "Name" : "Chardee MacDennis: The Game of Games",
+         "Episode" : 7,
+         "Season" : 7,
+         },
+         {
+         "Name" : "Charlie and Dee Find Love",
+         "Episode" : 4,
+         "Season" : 8,
+         },
+         {
+         "Name" : "Charlie Catches a Leprechaun",
+         "Episode" : 8,
+         "Season" : 11,
+         },
+         {
+         "Name" : "Charlie Gets Crippled",
+         "Episode" : 1,
+         "Season" : 2,
+         "Code" : 70224491
+         },
+         {
+         "Name" : "Charlie Goes America All Over Everybody's Ass",
+         "Episode" : 9,
+         "Season" : 2,
+         "Code" : 70224498
+         },
+         {
+         "Name" : "Charlie Got Molested",
+         "Episode" : 7,
+         "Season" : 1,
+         "Code" : 70224485
+         },
+         {
+         "Name" : "Charlie Has Cancer",
+         "Episode" : 4,
+         "Season" : 1,
+         "Code" : 70224487
+         },
+         {
+         "Name" : "Charlie Kelly: King of the Rats",
+         "Episode" : 10,
+         "Season" : 6,
+         },
+         {
+         "Name" : "Charlie Rules the World",
+         "Episode" : 8,
+         "Season" : 8,
+         },
+         {
+         "Name" : "Charlie Wants an Abortion",
+         "Episode" : 2,
+         "Season" : 1,
+         "Code" : 70224486
+         },
+         {
+         "Name" : "Charlie Work",
+         "Episode" : 4,
+         "Season" : 10,
+         },
+         {
+         "Name" : "Charlie's Mom Has Cancer",
+         "Episode" : 6,
+         "Season" : 8,
+         },
+         {
+         "Name" : "Dee Gives Birth",
+         "Episode" : 12,
+         "Season" : 6,
+         },
+         {
+         "Name" : "Dee Made a Smut Film",
+         "Episode" : 4,
+         "Season" : 11,
+         },
+         {
+         "Name" : "Dee Reynolds: Shaping America's Youth",
+         "Episode" : 9,
+         "Season" : 6,
+         },
+         {
+         "Name" : "Dennis and Dee Get a New Dad",
+         "Episode" : 10,
+         "Season" : 2,
+         "Code" : 70224500
+         },
+         {
+         "Name" : "Dennis and Dee Go on Welfare",
+         "Episode" : 3,
+         "Season" : 2,
+         "Code" : 70224494
+         },
+         {
+         "Name" : "Dennis and Dee's Mom Is Dead",
+         "Episode" : 3,
+         "Season" : 3,
+         "Code" : 70224503
+         },
+         {
+         "Name" : "Dennis Gets Divorced",
+         "Episode" : 2,
+         "Season" : 6,
+         },
+         {
+         "Name" : "Dennis Looks Like a Registered Sex Offender",
+         "Episode" : 11,
+         "Season" : 3,
+         "Code" : 70224511
+         },
+         {
+         "Name" : "Dennis Reynolds: An Erotic Life",
+         "Episode" : 9,
+         "Season" : 4,
+         "Code" : 70224524
+         },
+         {
+         "Name" : "Flowers for Charlie",
+         "Episode" : 8,
+         "Season" : 9,
+         },
+         {
+         "Name" : "Frank Falls Out the Window",
+         "Episode" : 2,
+         "Season" : 11,
+         },
+         {
+         "Name" : "Frank Retires",
+         "Episode" : 9,
+         "Season" : 10,
+         },
+         {
+         "Name" : "Frank Reynolds' Little Beauties",
+         "Episode" : 3,
+         "Season" : 7,
+         },
+         {
+         "Name" : "Frank Sets Sweet Dee on Fire",
+         "Episode" : 8,
+         "Season" : 3,
+         "Code" : 70224508
+         },
+         {
+         "Name" : "Frank's Back in Business",
+         "Episode" : 7,
+         "Season" : 8,
+         },
+         {
+         "Name" : "Frank's Brother",
+         "Episode" : 5,
+         "Season" : 7,
+         },
+         {
+         "Name" : "Frank's Pretty Woman",
+         "Episode" : 1,
+         "Season" : 7,
+         },
+         {
+         "Name" : "Gun Fever",
+         "Episode" : 5,
+         "Season" : 1,
+         "Code" : 70224488
+         },
+         {
+         "Name" : "Gun Fever Too: Still Hot",
+         "Episode" : 2,
+         "Season" : 9,
+         },
+         {
+         "Name" : "How Mac Got Fat",
+         "Episode" : 10,
+         "Season" : 7,
+         },
+         {
+         "Name" : "Hundred Dollar Baby",
+         "Episode" : 5,
+         "Season" : 2,
+         "Code" : 70224497
+         },
+         {
+         "Name" : "Mac & Charlie Die: Part 1",
+         "Episode" : 5,
+         "Season" : 4,
+         "Code" : 70224520
+         },
+         {
+         "Name" : "Mac & Charlie Die: Part 1",
+         "Episode" : 6,
+         "Season" : 4,
+         "Code" : 70224521
+         },
+         {
+         "Name" : "Mac & Dennis Move to the Suburbs",
+         "Episode" : 5,
+         "Season" : 11,
+         },
+         {
+         "Name" : "Mac and Charlie Write a Movie",
+         "Episode" : 11,
+         "Season" : 5,
+         },
+         {
+         "Name" : "Mac and Charlie: White Trash",
+         "Episode" : 5,
+         "Season" : 6,
+         },
+         {
+         "Name" : "Mac and Dennis Break Up",
+         "Episode" : 9,
+         "Season" : 5,
+         },
+         {
+         "Name" : "Mac and Dennis Buy a Timeshare",
+         "Episode" : 4,
+         "Season" : 9,
+         },
+         {
+         "Name" : "Mac and Dennis: Manhunters",
+         "Episode" : 1,
+         "Season" : 4,
+         "Code" : 70224516
+         },
+         {
+         "Name" : "Mac Bangs Dennis' Mom",
+         "Episode" : 4,
+         "Season" : 2,
+         "Code" : 70224493
+         },
+         {
+         "Name" : "Mac Day",
+         "Episode" : 5,
+         "Season" : 9,
+         },
+         {
+         "Name" : "Mac Fights Gay Marriage",
+         "Episode" : 1,
+         "Season" : 6,
+         },
+         {
+         "Name" : "Mac Is a Serial Killer",
+         "Episode" : 10,
+         "Season" : 3,
+         "Code" : 70224510
+         },
+         {
+         "Name" : "Mac Kills His Dad",
+         "Episode" : 7,
+         "Season" : 10,
+         },
+         {
+         "Name" : "Mac's Banging the Waitress",
+         "Episode" : 4,
+         "Season" : 4,
+         "Code" : 70224519
+         },
+         {
+         "Name" : "Mac's Big Break",
+         "Episode" : 4,
+         "Season" : 6,
+         },
+         {
+         "Name" : "Mac's Mom Burns Her House Down",
+         "Episode" : 6,
+         "Season" : 6,
+         },
+         {
+         "Name" : "McPoyle vs. Ponderosa: The Trial of the Century",
+         "Episode" : 7,
+         "Season" : 11,
+         },
+         {
+         "Name" : "Paddy's Pub: Home of the Original Kitten Mittens",
+         "Episode" : 8,
+         "Season" : 5,
+         },
+         {
+         "Name" : "Paddy's Pub: The Worst Bar in Philadelphia",
+         "Episode" : 8,
+         "Season" : 4,
+         "Code" : 70224523
+         },
+         {
+         "Name" : "Pop-Pop: The Final Solution",
+         "Episode" : 1,
+         "Season" : 8,
+         },
+         {
+         "Name" : "Psycho Pete Returns",
+         "Episode" : 3,
+         "Season" : 10,
+         },
+         {
+         "Name" : "Reynolds vs. Reynolds: The Cereal Defense",
+         "Episode" : 10,
+         "Season" : 8,
+         },
+         {
+         "Name" : "Sweet Dee Gets Audited",
+         "Episode" : 4,
+         "Season" : 7,
+         },
+         {
+         "Name" : "Sweet Dee Has a Heart Attack",
+         "Episode" : 10,
+         "Season" : 4,
+         "Code" : 70224526
+         },
+         {
+         "Name" : "Sweet Dee's Dating a Retarded Person",
+         "Episode" : 9,
+         "Season" : 3,
+         "Code" : 70224509
+         },
+         {
+         "Name" : "The Aluminum Monster vs. Fatty Magoo",
+         "Episode" : 5,
+         "Season" : 3,
+         "Code" : 70224505
+         },
+         {
+         "Name" : "The ANTI-Social Network",
+         "Episode" : 8,
+         "Season" : 7,
+         },
+         {
+         "Name" : "The D.E.N.N.I.S. System",
+         "Episode" : 10,
+         "Season" : 5,
+         },
+         {
+         "Name" : "The Gang Beats Boggs",
+         "Episode" : 1,
+         "Season" : 10,
+         },
+         {
+         "Name" : "The Gang Broke Dee",
+         "Episode" : 1,
+         "Season" : 9,
+         },
+         {
+         "Name" : "The Gang Buys a Boat",
+         "Episode" : 3,
+         "Season" : 6,
+         },
+         {
+         "Name" : "The Gang Cracks the Liberty Bell",
+         "Episode" : 11,
+         "Season" : 4,
+         "Code" : 70224527
+         },
+         {
+         "Name" : "The Gang Dances Their Asses Off",
+         "Episode" : 15,
+         "Season" : 3,
+         "Code" : 70224515
+         },
+         {
+         "Name" : "The Gang Dines Out",
+         "Episode" : 9,
+         "Season" : 8,
+         },
+         {
+         "Name" : "The Gang Exploits a Miracle",
+         "Episode" : 7,
+         "Season" : 2,
+         "Code" : 70224499
+         },
+         {
+         "Name" : "The Gang Exploits the Mortgage Crisis",
+         "Episode" : 1,
+         "Season" : 5,
+         },
+         {
+         "Name" : "The Gang Finds a Dead Guy",
+         "Episode" : 6,
+         "Season" : 1,
+         "Code" : 70224490
+         },
+         {
+         "Name" : "The Gang Finds a Dumpster Baby",
+         "Episode" : 1,
+         "Season" : 3,
+         "Code" : 70224501
+         },
+         {
+         "Name" : "The Gang Gets a New Member",
+         "Episode" : 8,
+         "Season" : 6,
+         },
+         {
+         "Name" : "The Gang Gets Analyzed",
+         "Episode" : 5,
+         "Season" : 8,
+         },
+         {
+         "Name" : "The Gang Gets Extreme: Home Makeover Edition",
+         "Episode" : 12,
+         "Season" : 4,
+         "Code" : 70224528
+         },
+         {
+         "Name" : "The Gang Gets Held Hostage",
+         "Episode" : 4,
+         "Season" : 3,
+         "Code" : 70224504
+         },
+         {
+         "Name" : "The Gang Gets Invincible",
+         "Episode" : 2,
+         "Season" : 3,
+         "Code" : 70224502
+         },
+         {
+         "Name" : "The Gang Gets Quarantined",
+         "Episode" : 7,
+         "Season" : 9,
+         },
+         {
+         "Name" : "The Gang Gets Racist",
+         "Episode" : 1,
+         "Season" : 1,
+         "Code" : 70224484
+         },
+         {
+         "Name" : "The Gang Gets Stranded in the Woods",
+         "Episode" : 11,
+         "Season" : 6,
+         },
+         {
+         "Name" : "The Gang Gets Trapped",
+         "Episode" : 9,
+         "Season" : 7,
+         },
+         {
+         "Name" : "The Gang Gets Whacked: Part 1",
+         "Episode" : 12,
+         "Season" : 3,
+         "Code" : 70224512
+         },
+         {
+         "Name" : "The Gang Gets Whacked: Part 1",
+         "Episode" : 13,
+         "Season" : 3,
+         "Code" : 70224513
+         },
+         {
+         "Name" : "The Gang Gives Back",
+         "Episode" : 6,
+         "Season" : 2,
+         "Code" : 70224497
+         },
+         {
+         "Name" : "The Gang Gives Frank an Intervention",
+         "Episode" : 4,
+         "Season" : 5,
+         },
+         {
+         "Name" : "The Gang Goes Jihad",
+         "Episode" : 2,
+         "Season" : 2,
+         "Code" : 70224491
+         },
+         {
+         "Name" : "The Gang Goes on Family Fight",
+         "Episode" : 8,
+         "Season" : 10,
+         },
+         {
+         "Name" : "The Gang Goes to Hell",
+         "Episode" : 9,
+         "Season" : 11,
+         },
+         {
+         "Name" : "The Gang Goes to Hell: Part Two",
+         "Episode" : 10,
+         "Season" : 11,
+         },
+         {
+         "Name" : "The Gang Goes to the Jersey Shore",
+         "Episode" : 2,
+         "Season" : 7,
+         },
+         {
+         "Name" : "The Gang Group Dates",
+         "Episode" : 2,
+         "Season" : 10,
+         },
+         {
+         "Name" : "The Gang Hits the Road",
+         "Episode" : 2,
+         "Season" : 5,
+         },
+         {
+         "Name" : "The Gang Hits the Slopes",
+         "Episode" : 3,
+         "Season" : 11,
+         },
+         {
+         "Name" : "The Gang Makes Lethal Weapon 6",
+         "Episode" : 9,
+         "Season" : 9,
+         },
+         {
+         "Name" : "The Gang Misses the Boat",
+         "Episode" : 6,
+         "Season" : 10,
+         },
+         {
+         "Name" : "The Gang Recycles Their Trash",
+         "Episode" : 2,
+         "Season" : 8,
+         },
+         {
+         "Name" : "The Gang Reignites the Rivalry",
+         "Episode" : 12,
+         "Season" : 5,
+         },
+         {
+         "Name" : "The Gang Runs for Office",
+         "Episode" : 8,
+         "Season" : 2,
+         "Code" : 70224496
+         },
+         {
+         "Name" : "The Gang Saves the Day",
+         "Episode" : 6,
+         "Season" : 9,
+         },
+         {
+         "Name" : "The Gang Sells Out",
+         "Episode" : 7,
+         "Season" : 3,
+         "Code" : 70224507
+         },
+         {
+         "Name" : "The Gang Solves the Gas Crisis",
+         "Episode" : 2,
+         "Season" : 4,
+         "Code" : 70224517
+         },
+         {
+         "Name" : "The Gang Solves the North Korea Situation",
+         "Episode" : 6,
+         "Season" : 3,
+         "Code" : 70224506
+         },
+         {
+         "Name" : "The Gang Spies Like U.S.",
+         "Episode" : 5,
+         "Season" : 10,
+         },
+         {
+         "Name" : "The Gang Squashes Their Beefs",
+         "Episode" : 10,
+         "Season" : 9,
+         },
+         {
+         "Name" : "The Gang Tries Desperately to Win an Award",
+         "Episode" : 3,
+         "Season" : 9,
+         },
+         {
+         "Name" : "The Gang Wrestles for the Troops",
+         "Episode" : 7,
+         "Season" : 5,
+         },
+         {
+         "Name" : "The Great Recession",
+         "Episode" : 3,
+         "Season" : 5,
+         },
+         {
+         "Name" : "The High School Reunion",
+         "Episode" : 12,
+         "Season" : 7,
+         },
+         {
+         "Name" : "The High School Reunion Part 2: The Gang's Revenge",
+         "Episode" : 13,
+         "Season" : 7,
+         },
+         {
+         "Name" : "The Maureen Ponderosa Wedding Massacre",
+         "Episode" : 3,
+         "Season" : 8,
+         },
+         {
+         "Name" : "The Nightman Cometh",
+         "Episode" : 13,
+         "Season" : 4,
+         "Code" : 70224529
+         },
+         {
+         "Name" : "The Storm of the Century",
+         "Episode" : 6,
+         "Season" : 7,
+         },
+         {
+         "Name" : "The Waitress Is Getting Married",
+         "Episode" : 5,
+         "Season" : 5,
+         },
+         {
+         "Name" : "The World Series Defense",
+         "Episode" : 6,
+         "Season" : 5,
+         },
+         {
+         "Name" : "Thunder Gun Express",
+         "Episode" : 11,
+         "Season" : 7,
+         },
+         {
+         "Name" : "Underage Drinking: A National Concern",
+         "Episode" : 3,
+         "Season" : 1,
+         "Code" : 70224489
+         },
+         {
+         "Name" : "Who Got Dee Pregnant?",
+         "Episode" : 7,
+         "Season" : 6,
+         },
+         {
+         "Name" : "Who Pooped the Bed?",
+         "Episode" : 7,
+         "Season" : 4,
+         "Code" : 70224522
+         }
          ]
     }
 }
