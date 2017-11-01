@@ -6,6 +6,7 @@
          "Name" : "A Very Sunny Christmas",
          "Episode" : 13,
          "Season" : 6,
+         "Code" : 70224555
          },
          {
          "Name" : "America's Next Top Paddy's Billboard Model Contest",
@@ -17,11 +18,13 @@
          "Name" : "Ass Kickers United: Mac and Charlie Join a Cult",
          "Episode" : 10,
          "Season" : 10,
+         "Code" : 80043923
          },
          {
          "Name" : "Being Frank",
          "Episode" : 6,
          "Season" : 11,
+         "Code" : 80101451
          },
          {
          "Name" : "Bums: Making a Mess All Over the City",
@@ -33,21 +36,25 @@
          "Name" : "Chardee MacDennis 2: Electric Boogaloo",
          "Episode" : 1,
          "Season" : 11,
+         "Code" : 80101446
          },
          {
          "Name" : "Chardee MacDennis: The Game of Games",
          "Episode" : 7,
          "Season" : 7,
+         "Code" : 70224119
          },
          {
          "Name" : "Charlie and Dee Find Love",
          "Episode" : 4,
          "Season" : 8,
+         "Code" : 70228415
          },
          {
          "Name" : "Charlie Catches a Leprechaun",
          "Episode" : 8,
          "Season" : 11,
+         "Code" : 80101453
          },
          {
          "Name" : "Charlie Gets Crippled",
@@ -77,11 +84,13 @@
          "Name" : "Charlie Kelly: King of the Rats",
          "Episode" : 10,
          "Season" : 6,
+         "Code" : 70224552
          },
          {
          "Name" : "Charlie Rules the World",
          "Episode" : 8,
          "Season" : 8,
+         "Code" : 70228419
          },
          {
          "Name" : "Charlie Wants an Abortion",
@@ -93,26 +102,31 @@
          "Name" : "Charlie Work",
          "Episode" : 4,
          "Season" : 10,
+         "Code" : 80043917
          },
          {
          "Name" : "Charlie's Mom Has Cancer",
          "Episode" : 6,
          "Season" : 8,
+         "Code" : 70228417
          },
          {
          "Name" : "Dee Gives Birth",
          "Episode" : 12,
          "Season" : 6,
+         "Code" : 70224554
          },
          {
          "Name" : "Dee Made a Smut Film",
          "Episode" : 4,
          "Season" : 11,
+         "Code" : 80101449
          },
          {
          "Name" : "Dee Reynolds: Shaping America's Youth",
          "Episode" : 9,
          "Season" : 6,
+         "Code" : 70224551
          },
          {
          "Name" : "Dennis and Dee Get a New Dad",
@@ -136,6 +150,7 @@
          "Name" : "Dennis Gets Divorced",
          "Episode" : 2,
          "Season" : 6,
+         "Code" : 70224544
          },
          {
          "Name" : "Dennis Looks Like a Registered Sex Offender",
@@ -153,21 +168,25 @@
          "Name" : "Flowers for Charlie",
          "Episode" : 8,
          "Season" : 9,
+         "Code" : 70228432
          },
          {
          "Name" : "Frank Falls Out the Window",
          "Episode" : 2,
          "Season" : 11,
+         "Code" : 80101447
          },
          {
          "Name" : "Frank Retires",
          "Episode" : 9,
          "Season" : 10,
+         "Code" : 80043922
          },
          {
          "Name" : "Frank Reynolds' Little Beauties",
          "Episode" : 3,
          "Season" : 7,
+         "Code" : 70224115
          },
          {
          "Name" : "Frank Sets Sweet Dee on Fire",
@@ -179,16 +198,19 @@
          "Name" : "Frank's Back in Business",
          "Episode" : 7,
          "Season" : 8,
+         "Code" : 70228418
          },
          {
          "Name" : "Frank's Brother",
          "Episode" : 5,
          "Season" : 7,
+         "Code" : 70224117
          },
          {
          "Name" : "Frank's Pretty Woman",
          "Episode" : 1,
          "Season" : 7,
+         "Code" : 70224113
          },
          {
          "Name" : "Gun Fever",
@@ -200,11 +222,13 @@
          "Name" : "Gun Fever Too: Still Hot",
          "Episode" : 2,
          "Season" : 9,
+         "Code" : 70228426
          },
          {
          "Name" : "How Mac Got Fat",
          "Episode" : 10,
          "Season" : 7,
+         "Code" : 70224122
          },
          {
          "Name" : "Hundred Dollar Baby",
@@ -228,26 +252,31 @@
          "Name" : "Mac & Dennis Move to the Suburbs",
          "Episode" : 5,
          "Season" : 11,
+         "Code" : 80101450
          },
          {
          "Name" : "Mac and Charlie Write a Movie",
          "Episode" : 11,
          "Season" : 5,
+         "Code" : 70224541
          },
          {
          "Name" : "Mac and Charlie: White Trash",
          "Episode" : 5,
          "Season" : 6,
+         "Code" : 70224547
          },
          {
          "Name" : "Mac and Dennis Break Up",
          "Episode" : 9,
          "Season" : 5,
+         "Code" : 70224538
          },
          {
          "Name" : "Mac and Dennis Buy a Timeshare",
          "Episode" : 4,
          "Season" : 9,
+         "Code" : 70228428
          },
          {
          "Name" : "Mac and Dennis: Manhunters",
@@ -265,11 +294,13 @@
          "Name" : "Mac Day",
          "Episode" : 5,
          "Season" : 9,
+         "Code" : 70228429
          },
          {
          "Name" : "Mac Fights Gay Marriage",
          "Episode" : 1,
          "Season" : 6,
+         "Code" : 70224543
          },
          {
          "Name" : "Mac Is a Serial Killer",
@@ -281,6 +312,7 @@
          "Name" : "Mac Kills His Dad",
          "Episode" : 7,
          "Season" : 10,
+         "Code" : 80043920
          },
          {
          "Name" : "Mac's Banging the Waitress",
@@ -292,21 +324,25 @@
          "Name" : "Mac's Big Break",
          "Episode" : 4,
          "Season" : 6,
+         "Code" : 70224546
          },
          {
          "Name" : "Mac's Mom Burns Her House Down",
          "Episode" : 6,
          "Season" : 6,
+         "Code" : 70224548
          },
          {
          "Name" : "McPoyle vs. Ponderosa: The Trial of the Century",
          "Episode" : 7,
          "Season" : 11,
+         "Code" : 80101452
          },
          {
          "Name" : "Paddy's Pub: Home of the Original Kitten Mittens",
          "Episode" : 8,
          "Season" : 5,
+         "Code" : 70224537
          },
          {
          "Name" : "Paddy's Pub: The Worst Bar in Philadelphia",
@@ -318,21 +354,25 @@
          "Name" : "Pop-Pop: The Final Solution",
          "Episode" : 1,
          "Season" : 8,
+         "Code" : 70228412
          },
          {
          "Name" : "Psycho Pete Returns",
          "Episode" : 3,
          "Season" : 10,
+         "Code" : 80043916
          },
          {
          "Name" : "Reynolds vs. Reynolds: The Cereal Defense",
          "Episode" : 10,
          "Season" : 8,
+         "Code" : 70228421
          },
          {
          "Name" : "Sweet Dee Gets Audited",
          "Episode" : 4,
          "Season" : 7,
+         "Code" : 70224116
          },
          {
          "Name" : "Sweet Dee Has a Heart Attack",
@@ -356,26 +396,31 @@
          "Name" : "The ANTI-Social Network",
          "Episode" : 8,
          "Season" : 7,
+         "Code" : 70224120
          },
          {
          "Name" : "The D.E.N.N.I.S. System",
          "Episode" : 10,
          "Season" : 5,
+         "Code" : 70224539
          },
          {
          "Name" : "The Gang Beats Boggs",
          "Episode" : 1,
          "Season" : 10,
+         "Code" : 80043914
          },
          {
          "Name" : "The Gang Broke Dee",
          "Episode" : 1,
          "Season" : 9,
+         "Code" : 70228425
          },
          {
          "Name" : "The Gang Buys a Boat",
          "Episode" : 3,
          "Season" : 6,
+         "Code" : 70224545
          },
          {
          "Name" : "The Gang Cracks the Liberty Bell",
@@ -393,6 +438,7 @@
          "Name" : "The Gang Dines Out",
          "Episode" : 9,
          "Season" : 8,
+         "Code" : 70228420
          },
          {
          "Name" : "The Gang Exploits a Miracle",
@@ -404,6 +450,7 @@
          "Name" : "The Gang Exploits the Mortgage Crisis",
          "Episode" : 1,
          "Season" : 5,
+         "Code" : 70224530
          },
          {
          "Name" : "The Gang Finds a Dead Guy",
@@ -421,11 +468,13 @@
          "Name" : "The Gang Gets a New Member",
          "Episode" : 8,
          "Season" : 6,
+         "Code" : 70224550
          },
          {
          "Name" : "The Gang Gets Analyzed",
          "Episode" : 5,
          "Season" : 8,
+         "Code" : 70228416
          },
          {
          "Name" : "The Gang Gets Extreme: Home Makeover Edition",
@@ -449,6 +498,7 @@
          "Name" : "The Gang Gets Quarantined",
          "Episode" : 7,
          "Season" : 9,
+         "Code" : 70228431
          },
          {
          "Name" : "The Gang Gets Racist",
@@ -460,11 +510,13 @@
          "Name" : "The Gang Gets Stranded in the Woods",
          "Episode" : 11,
          "Season" : 6,
+         "Code" : 70224553
          },
          {
          "Name" : "The Gang Gets Trapped",
          "Episode" : 9,
          "Season" : 7,
+         "Code" : 70224121
          },
          {
          "Name" : "The Gang Gets Whacked: Part 1",
@@ -488,6 +540,7 @@
          "Name" : "The Gang Gives Frank an Intervention",
          "Episode" : 4,
          "Season" : 5,
+         "Code" : 70224533
          },
          {
          "Name" : "The Gang Goes Jihad",
@@ -499,56 +552,67 @@
          "Name" : "The Gang Goes on Family Fight",
          "Episode" : 8,
          "Season" : 10,
+         "Code" : 80043921
          },
          {
          "Name" : "The Gang Goes to Hell",
          "Episode" : 9,
          "Season" : 11,
+         "Code" : 80101454
          },
          {
          "Name" : "The Gang Goes to Hell: Part Two",
          "Episode" : 10,
          "Season" : 11,
+         "Code" : 80101455
          },
          {
          "Name" : "The Gang Goes to the Jersey Shore",
          "Episode" : 2,
          "Season" : 7,
+         "Code" : 70224114
          },
          {
          "Name" : "The Gang Group Dates",
          "Episode" : 2,
          "Season" : 10,
+         "Code" : 80043915
          },
          {
          "Name" : "The Gang Hits the Road",
          "Episode" : 2,
          "Season" : 5,
+         "Code" : 70224531
          },
          {
          "Name" : "The Gang Hits the Slopes",
          "Episode" : 3,
          "Season" : 11,
+         "Code" : 80101448
          },
          {
          "Name" : "The Gang Makes Lethal Weapon 6",
          "Episode" : 9,
          "Season" : 9,
+         "Code" : 70228433
          },
          {
          "Name" : "The Gang Misses the Boat",
          "Episode" : 6,
          "Season" : 10,
+         "Code" : 80043919
          },
          {
          "Name" : "The Gang Recycles Their Trash",
          "Episode" : 2,
          "Season" : 8,
+         "Code" : 70228413
          },
          {
          "Name" : "The Gang Reignites the Rivalry",
          "Episode" : 12,
          "Season" : 5,
+         "Code" : 70224542
          },
          {
          "Name" : "The Gang Runs for Office",
@@ -560,6 +624,7 @@
          "Name" : "The Gang Saves the Day",
          "Episode" : 6,
          "Season" : 9,
+         "Code" : 70228430
          },
          {
          "Name" : "The Gang Sells Out",
@@ -583,41 +648,49 @@
          "Name" : "The Gang Spies Like U.S.",
          "Episode" : 5,
          "Season" : 10,
+         "Code" : 80043918
          },
          {
          "Name" : "The Gang Squashes Their Beefs",
          "Episode" : 10,
          "Season" : 9,
+         "Code" : 70228434
          },
          {
          "Name" : "The Gang Tries Desperately to Win an Award",
          "Episode" : 3,
          "Season" : 9,
+         "Code" : 70228427
          },
          {
          "Name" : "The Gang Wrestles for the Troops",
          "Episode" : 7,
          "Season" : 5,
+         "Code" : 70224536
          },
          {
          "Name" : "The Great Recession",
          "Episode" : 3,
          "Season" : 5,
+         "Code" : 70224532
          },
          {
          "Name" : "The High School Reunion",
          "Episode" : 12,
          "Season" : 7,
+         "Code" : 70224124
          },
          {
          "Name" : "The High School Reunion Part 2: The Gang's Revenge",
          "Episode" : 13,
          "Season" : 7,
+         "Code" : 70226480
          },
          {
          "Name" : "The Maureen Ponderosa Wedding Massacre",
          "Episode" : 3,
          "Season" : 8,
+         "Code" : 70228414
          },
          {
          "Name" : "The Nightman Cometh",
@@ -629,21 +702,25 @@
          "Name" : "The Storm of the Century",
          "Episode" : 6,
          "Season" : 7,
+         "Code" : 70224118
          },
          {
          "Name" : "The Waitress Is Getting Married",
          "Episode" : 5,
          "Season" : 5,
+         "Code" : 70224534
          },
          {
          "Name" : "The World Series Defense",
          "Episode" : 6,
          "Season" : 5,
+         "Code" : 70224535
          },
          {
          "Name" : "Thunder Gun Express",
          "Episode" : 11,
          "Season" : 7,
+         "Code" : 70224123
          },
          {
          "Name" : "Underage Drinking: A National Concern",
@@ -655,6 +732,7 @@
          "Name" : "Who Got Dee Pregnant?",
          "Episode" : 7,
          "Season" : 6,
+         "Code" : 70224549
          },
          {
          "Name" : "Who Pooped the Bed?",
